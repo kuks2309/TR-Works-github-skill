@@ -1,5 +1,5 @@
 ---
-description: 현재 브랜치의 변경 내용을 분석해서 PR 제목과 설명 초안을 생성합니다
+description: 현재 브랜치의 변경 내용을 분석해서 PR(Pull Request) 제목과 설명 초안을 생성합니다
 argument-hint: "[추가 설명 (선택)]"
 allowed-tools: Bash(git log --oneline origin/main..HEAD), Bash(git diff origin/main...HEAD --stat)
 ---

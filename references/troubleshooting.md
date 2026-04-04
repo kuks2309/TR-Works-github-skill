@@ -102,7 +102,7 @@
   3. 빌드 성공 후 git add → git commit
 ```
 
-### QoS 관련 PR 리뷰 지적
+### QoS(Quality of Service) 관련 PR(Pull Request) 리뷰 지적
 ```
 확인사항:
   - publisher QoS와 subscriber QoS 호환?

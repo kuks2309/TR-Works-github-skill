@@ -6,8 +6,8 @@ TR-Works (T-Robotics 휴머노이드 부문) 팀 GitHub 협업을 위한 Claude 
 ## 특징
 
 - **단일 Skill, 전 레벨 지원** — 입문(Lv1) / 중급(Lv2) / 고급(Lv3) 모두 포함
-- **TR-Works 특화** — ROS2 프로젝트 규칙, QoS 호환성 체크, colcon 빌드 검증
-- **슬래시 커맨드 7개** — `/commit`, `/pr`, `/branch`, `/review`, `/release`, `/git-sync`, `/leader`
+- **TR-Works 특화** — ROS2 프로젝트 규칙, QoS(Quality of Service) 호환성 체크, colcon 빌드 검증
+- **슬래시 커맨드 7개** — `/commit`, `/pr`(Pull Request), `/branch`, `/review`, `/release`, `/git-sync`, `/leader`
 - **트러블슈팅** — Git + ROS2 + Claude Code 에러 해결법 모음
 - **프로젝트 관리** — GitHub Projects 칸반 보드 + 일정 관리 가이드
 
@@ -65,6 +65,6 @@ T-Works-github-skill/
 | 조직 | TR-Works (T-Robotics 휴머노이드 부문) |
 | 팀 규모 | 5명 이내 |
 | 브랜치 전략 | GitHub Flow |
-| 개발 환경 | Ubuntu · VS Code · Claude Code CLI |
+| 개발 환경 | Ubuntu · VS Code · Claude Code CLI(Command Line Interface) |
 | 주요 언어 | C++ (ROS2) · Python (AI/GUI) |
 | 빌드 시스템 | colcon (ROS2 Humble) |

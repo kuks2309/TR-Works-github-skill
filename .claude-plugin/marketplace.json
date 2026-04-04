@@ -1,0 +1,15 @@
+{
+  "name": "t-works-marketplace",
+  "owner": {
+    "name": "TR-Works",
+    "url": "https://github.com/kuks2309"
+  },
+  "plugins": [
+    {
+      "name": "t-works-github",
+      "version": "1.0.0",
+      "description": "TR-Works 팀 GitHub 협업 Skill — 입문부터 고급까지",
+      "source": "./"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ argument-hint: "[리뷰 집중 파일 또는 관점 (선택)]"
 allowed-tools: Bash(git diff origin/main...HEAD), Read
 ---
 
-PR 리뷰어 관점에서 변경 사항을 검토합니다.
+PR(Pull Request) 리뷰어 관점에서 변경 사항을 검토합니다.
 
 ## 리뷰 체크리스트
 
@@ -19,7 +19,7 @@ PR 리뷰어 관점에서 변경 사항을 검토합니다.
 - [ ] 복잡한 로직에 주석이 있는가
 
 ### ROS2 특화 검토
-- [ ] QoS 설정이 publisher/subscriber 간 호환되는가
+- [ ] QoS(Quality of Service) 설정이 publisher/subscriber 간 호환되는가
 - [ ] launch 파라미터가 실제 노드 파라미터와 일치하는가
 - [ ] 절대 경로 사용하지 않았는가
 - [ ] UI 파일과 알고리즘 파일이 분리되어 있는가

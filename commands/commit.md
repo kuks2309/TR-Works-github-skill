@@ -12,7 +12,7 @@ allowed-tools: Bash(git diff --staged), Bash(git status)
 
 타입 선택 기준:
 - `feat:` — 새로운 기능, 설정값 추가, 새 노드/패키지
-- `fix:` — 버그 수정, QoS 불일치 수정, 오류 해결
+- `fix:` — 버그 수정, QoS(Quality of Service) 불일치 수정, 오류 해결
 - `docs:` — README, 주석, 문서 수정
 - `refactor:` — 코드 구조 개선 (기능 변화 없음)
 - `test:` — 테스트 추가/수정

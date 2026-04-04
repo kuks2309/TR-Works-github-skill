@@ -1,5 +1,5 @@
 ---
-description: 프로젝트 리더용 — 팀원 PR/브랜치 현황 확인 후 검토·머지까지 안내합니다
+description: 프로젝트 리더용 — 팀원 PR(Pull Request)/브랜치 현황 확인 후 검토·머지까지 안내합니다
 allowed-tools: Bash(git *), Bash(gh *)
 ---
 
@@ -49,7 +49,7 @@ gh pr merge <번호> --squash --delete-branch
 
 ## 안전 원칙
 
-- CI 실패 시 머지 차단
+- CI(Continuous Integration) 실패 시 머지 차단
 - 리뷰 없으면 경고
 - 머지 전 반드시 사용자 확인
 - force push 절대 금지

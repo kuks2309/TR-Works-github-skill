@@ -11,7 +11,7 @@ description: >
   - GitHub 조직 설정, 프로젝트 관리
   - Git 명령어 질문 (clone, push, pull, rebase 등)
   - 충돌(Conflict) 해결 요청
-  - GitHub Actions, CI/CD 파이프라인 설정
+  - GitHub Actions, CI/CD(Continuous Integration/Continuous Deployment) 파이프라인 설정
   - Release, 버전 관리 자동화
   - 코드 리뷰 방법, CODEOWNERS 설정
   - 일정 관리, 프로젝트 보드 운영
@@ -35,7 +35,7 @@ license: MIT
 | 조직 | TR-Works (T-Robotics 휴머노이드 부문) |
 | 팀 규모 | 5명 이내 |
 | 브랜치 전략 | GitHub Flow (소규모 팀 최적) |
-| 개발 환경 | Ubuntu · VS Code · Claude Code CLI |
+| 개발 환경 | Ubuntu · VS Code · Claude Code CLI(Command Line Interface) |
 | 주요 언어 | C++ (ROS2 노드, 제어, 센서, 통신) · Python (AI, GUI) |
 | 빌드 시스템 | colcon (ROS2) |
 | 프로젝트 관리 | GitHub Projects (칸반 보드 + 일정 관리) |
@@ -71,7 +71,7 @@ license: MIT
 ### 브랜치 전략 — GitHub Flow
 
 main 브랜치는 항상 완성된 코드만 유지합니다.
-모든 작업은 feature 브랜치에서 진행하고 PR로 main에 병합합니다.
+모든 작업은 feature 브랜치에서 진행하고 PR(Pull Request)로 main에 병합합니다.
 
 ```
 main (완성된 코드만)
@@ -139,7 +139,7 @@ git branch -a          # 로컬 + 원격
 
 예시:
   feat: LiDAR 듀얼 스캔 병합 노드 추가
-  fix: rtabmap QoS 불일치로 인한 토픽 수신 실패 수정
+  fix: rtabmap QoS(Quality of Service) 불일치로 인한 토픽 수신 실패 수정
   docs: README 패키지 구조 설명 추가
   refactor: launch 파일 파라미터 정리
   build: CMakeLists.txt ament_auto_package 설정 수정
@@ -230,7 +230,7 @@ git log --oneline --graph  # 그래프 형태
 git log --author="이름"    # 작성자별
 ```
 
-### PR 템플릿 설정
+### PR(Pull Request) 템플릿 설정
 
 `.github/PULL_REQUEST_TEMPLATE.md` 파일 생성:
 
@@ -360,7 +360,7 @@ QoS 호환성:
 
 ---
 
-## Level 3 — 고급: CI/CD 자동화
+## Level 3 — 고급: CI/CD(Continuous Integration/Continuous Deployment) 자동화
 
 > 팀이 성숙해지고 자동화가 필요할 때 적용합니다.
 

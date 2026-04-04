@@ -37,7 +37,7 @@ docs/이름/문서내용       — 문서 작업만
 | 타입 | 사용 시점 |
 |------|----------|
 | `feat:` | 새 기능, 새 노드/패키지 추가 |
-| `fix:` | 버그, QoS 불일치, 오류 수정 |
+| `fix:` | 버그, QoS(Quality of Service) 불일치, 오류 수정 |
 | `docs:` | README, 주석, 문서 수정 |
 | `refactor:` | 코드 구조 개선 (기능 변화 없음) |
 | `test:` | 테스트 추가/수정 |
@@ -61,13 +61,13 @@ fix
 
 ---
 
-## Pull Request 규칙
+## PR(Pull Request) 규칙
 
 1. 모든 코드 변경은 PR을 통해서만 main 병합
 2. 최소 1명의 승인 필수 (Leader 또는 시니어)
 3. PR 제목은 커밋 메시지 형식 따름
 4. 하나의 PR은 하나의 기능/수정에 집중
-5. WIP PR은 제목에 `[WIP]` 접두어
+5. WIP(Work In Progress) PR(Pull Request)은 제목에 `[WIP]` 접두어
 6. colcon build 성공 확인 필수
 
 ---

@@ -1,18 +1,8 @@
 {
   "name": "t-works-github",
-  "version": "1.0.0",
   "description": "TR-Works 팀 GitHub 협업 Skill — 입문부터 고급까지",
-  "author": "TR-Works",
-  "skills": [
-    "SKILL.md"
-  ],
-  "commands": [
-    "commands/commit.md",
-    "commands/pr.md",
-    "commands/branch.md",
-    "commands/review.md",
-    "commands/release.md",
-    "commands/git-sync.md",
-    "commands/leader.md"
-  ]
+  "author": {
+    "name": "TR-Works",
+    "email": "kuks2309@gmail.com"
+  }
 }
