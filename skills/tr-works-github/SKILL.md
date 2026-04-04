@@ -1,6 +1,5 @@
 ---
-name: t-works-github
-version: 1.0.0
+name: tr-works-github
 description: >
   TR-Works 팀 GitHub 협업 전문 Skill.
   다음 상황에서 자동으로 활성화됩니다:
@@ -15,9 +14,6 @@ description: >
   - Release, 버전 관리 자동화
   - 코드 리뷰 방법, CODEOWNERS 설정
   - 일정 관리, 프로젝트 보드 운영
-author: TR-Works
-organization: TR-Works (T-Robotics Humanoid Division)
-repository: https://github.com/TR-Works/T-Works-github-skill
 license: MIT
 ---
 
@@ -577,5 +573,5 @@ PR 설명 초안:
 
 ## 참조 문서
 
-- [references/t-works-conventions.md](references/t-works-conventions.md) — 팀 규칙 전체
-- [references/troubleshooting.md](references/troubleshooting.md) — 에러 해결 모음
+- [references/tr-works-conventions.md](../../references/tr-works-conventions.md) — 팀 규칙 전체
+- [references/troubleshooting.md](../../references/troubleshooting.md) — 에러 해결 모음

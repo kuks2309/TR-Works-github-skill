@@ -1,4 +1,4 @@
-# T-Works GitHub Skill
+# TR-Works GitHub Skill
 
 TR-Works (T-Robotics 휴머노이드 부문) 팀 GitHub 협업을 위한 Claude Code CLI Skill입니다.
 초보자부터 고급 개발자까지 수준에 맞는 GitHub 협업 가이드를 제공합니다.
@@ -15,11 +15,11 @@ TR-Works (T-Robotics 휴머노이드 부문) 팀 GitHub 협업을 위한 Claude 
 
 ```bash
 # GitHub에서 직접 설치
-/plugin install T-Works-github-skill
+/plugin install TR-Works-github-skill
 
 # 또는 로컬 클론 후 설치
-git clone https://github.com/TR-Works/T-Works-github-skill.git
-/plugin install ./T-Works-github-skill
+git clone https://github.com/TR-Works/TR-Works-github-skill.git
+/plugin install ./TR-Works-github-skill
 ```
 
 ## 슬래시 커맨드
@@ -37,10 +37,10 @@ git clone https://github.com/TR-Works/T-Works-github-skill.git
 ## 구조
 
 ```
-T-Works-github-skill/
+TR-Works-github-skill/
 ├── SKILL.md                          # 메인 Skill 정의 (Lv1~Lv3 전체)
 ├── references/
-│   ├── t-works-conventions.md        # 팀 공통 규칙
+│   ├── tr-works-conventions.md        # 팀 공통 규칙
 │   └── troubleshooting.md            # 에러 해결 모음
 ├── commands/
 │   ├── commit.md                     # /commit 커맨드
